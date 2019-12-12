@@ -20,7 +20,7 @@ def greeting(name):
 @app.route('/cube/<int:num>')
 def cube(num):
     result = num ** 3
-    return str(result) # return_type은 str로
+    return str(result) # return_type은 str
 
 @app.route('/lunch/<int:people>')
 def lunch(people):
